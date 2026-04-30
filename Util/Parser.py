@@ -131,7 +131,7 @@ class LegacyParser(Parser):
             current_object = JsonObject({
                 'delay': v[0],
                 'event_type': v[1].upper(),
-                'message': v[2].lower(),
+                'action_type': v[2].lower(),
                 'action': v[3],
                 'type': 'event'
             })
